@@ -1,0 +1,1255 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Groundhogg - Pro Features\n"
+"POT-Creation-Date: 2019-10-22 08:43-0400\n"
+"PO-Revision-Date: 2019-10-22 08:43-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: groundhogg-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/emails/add-email.php:73
+msgid "My Templates"
+msgstr ""
+
+#: admin/emails/add-email.php:76
+msgid "Default Templates"
+msgstr ""
+
+#: admin/emails/add-email.php:78
+msgid "My Emails"
+msgstr ""
+
+#: admin/emails/add-email.php:106 admin/emails/add-email.php:147
+#: admin/emails/add-email.php:207 admin/emails/emails-page-pro.php:569
+msgid "Start Writing"
+msgstr ""
+
+#: admin/emails/add-email.php:123
+msgid "Search your previous emails and use them as a starting point."
+msgstr ""
+
+#: admin/emails/add-email.php:125
+msgid "Type in a search term like \"Special\"..."
+msgstr ""
+
+#: admin/emails/add-email.php:141 admin/emails/emails-page-pro.php:566
+msgid "Subject: "
+msgstr ""
+
+#: admin/emails/add-email.php:142 admin/emails/emails-page-pro.php:567
+msgid "Pre-Header: "
+msgstr ""
+
+#: admin/emails/add-email.php:209
+msgid "Edit Template"
+msgstr ""
+
+#: admin/emails/blocks/button.php:35
+msgctxt "email_block"
+msgid "Button"
+msgstr ""
+
+#: admin/emails/blocks/button.php:44
+msgid "Button Text"
+msgstr ""
+
+#: admin/emails/blocks/button.php:52
+msgid "Button Link"
+msgstr ""
+
+#: admin/emails/blocks/button.php:60
+msgid "Button Color"
+msgstr ""
+
+#: admin/emails/blocks/button.php:69
+msgid "Font Color"
+msgstr ""
+
+#: admin/emails/blocks/button.php:78
+msgid "Font Size"
+msgstr ""
+
+#: admin/emails/blocks/button.php:90
+msgid "Button Font"
+msgstr ""
+
+#: admin/emails/blocks/button.php:98 admin/emails/blocks/image.php:62
+#: admin/emails/email-editor.php:183
+msgid "Alignment"
+msgstr ""
+
+#: admin/emails/blocks/button.php:103 admin/emails/blocks/image.php:67
+#: admin/emails/email-editor.php:186
+msgid "Left"
+msgstr ""
+
+#: admin/emails/blocks/button.php:104 admin/emails/blocks/image.php:68
+#: admin/emails/email-editor.php:187
+msgid "Center"
+msgstr ""
+
+#: admin/emails/blocks/button.php:105 admin/emails/blocks/image.php:69
+msgid "Right"
+msgstr ""
+
+#: admin/emails/blocks/button.php:134
+msgid "I am a button &rarr;"
+msgstr ""
+
+#: admin/emails/blocks/column.php:34
+msgctxt "email_block"
+msgid "Column"
+msgstr ""
+
+#: admin/emails/blocks/column.php:62 admin/emails/blocks/column.php:69
+msgid "Column content can only be edited in HTML mode at the moment."
+msgstr ""
+
+#: admin/emails/blocks/divider.php:35
+msgctxt "email_block"
+msgid "Divider"
+msgstr ""
+
+#: admin/emails/blocks/divider.php:43 admin/emails/blocks/image.php:51
+msgid "Width"
+msgstr ""
+
+#: admin/emails/blocks/divider.php:53 admin/emails/blocks/spacer.php:41
+msgid "Height"
+msgstr ""
+
+#: admin/emails/blocks/divider.php:63
+msgid "Color"
+msgstr ""
+
+#: admin/emails/blocks/html.php:37
+msgctxt "email_block"
+msgid "HTML"
+msgstr ""
+
+#: admin/emails/blocks/html.php:45
+msgid "Content"
+msgstr ""
+
+#: admin/emails/blocks/html.php:73
+msgid ""
+"This is some custom HTML which you can edit on the right. You may enter any "
+"valid HTML tags, but they may get filtered out as some email browsers to not "
+"support certain HTML."
+msgstr ""
+
+#: admin/emails/blocks/image.php:34
+msgctxt "email_block"
+msgid "Image"
+msgstr ""
+
+#: admin/emails/blocks/image.php:42
+msgid "Image"
+msgstr ""
+
+#: admin/emails/blocks/image.php:75
+msgid "Link"
+msgstr ""
+
+#: admin/emails/blocks/spacer.php:33
+msgctxt "email_block"
+msgid "Spacer"
+msgstr ""
+
+#: admin/emails/blocks/text.php:36
+msgctxt "email_block"
+msgid "Text Block"
+msgstr ""
+
+#: admin/emails/blocks/text.php:55
+msgid "H1 Size"
+msgstr ""
+
+#: admin/emails/blocks/text.php:67
+msgid "H1 Font"
+msgstr ""
+
+#: admin/emails/blocks/text.php:75
+msgid "H2 Size"
+msgstr ""
+
+#: admin/emails/blocks/text.php:87
+msgid "H2 Font"
+msgstr ""
+
+#: admin/emails/blocks/text.php:95
+msgid "Paragraph Size"
+msgstr ""
+
+#: admin/emails/blocks/text.php:107
+msgid "Paragraph Font"
+msgstr ""
+
+#: admin/emails/blocks/text.php:192
+msgid ""
+"Customize this section by editing the text, adding your own copy, \n"
+"            using the options above to bold, italicize, or create links and "
+"bullets, \n"
+"            or use the options in the \"Design\" panel on the left to "
+"change \n"
+"            the font styles of your email."
+msgstr ""
+
+#: admin/emails/email-editor.php:47
+msgid "Enter email title..."
+msgstr ""
+
+#: admin/emails/email-editor.php:52
+msgid "Send as broadcast"
+msgstr ""
+
+#: admin/emails/email-editor.php:65
+msgid "Distraction Free Mode"
+msgstr ""
+
+#: admin/emails/email-editor.php:70
+msgid "Replacements"
+msgstr ""
+
+#: admin/emails/email-editor.php:72
+msgid "Insert"
+msgstr ""
+
+#: admin/emails/email-editor.php:82
+msgid "Email Alt-Body"
+msgstr ""
+
+#: admin/emails/email-editor.php:84
+msgid "Done"
+msgstr ""
+
+#: admin/emails/email-editor.php:111 admin/superlinks/edit.php:67
+msgid "Update"
+msgstr ""
+
+#: admin/emails/email-editor.php:112
+msgid "Update & Test"
+msgstr ""
+
+#: admin/emails/email-editor.php:119
+msgid "Mobile Preview"
+msgstr ""
+
+#: admin/emails/email-editor.php:121 admin/emails/email-editor.php:133
+msgid "Close"
+msgstr ""
+
+#: admin/emails/email-editor.php:131
+msgid "Desktop Preview"
+msgstr ""
+
+#: admin/emails/email-editor.php:162
+msgid "Email Options"
+msgstr ""
+
+#: admin/emails/email-editor.php:169
+msgid "From:"
+msgstr ""
+
+#: admin/emails/email-editor.php:170
+msgid "The Contact's Owner"
+msgstr ""
+
+#: admin/emails/email-editor.php:172
+msgid "Choose who this email comes from."
+msgstr ""
+
+#: admin/emails/email-editor.php:176
+msgid "Reply To:"
+msgstr ""
+
+#: admin/emails/email-editor.php:179
+msgid ""
+"Override the email address replies are sent to. Leave empty to default to "
+"the sender address."
+msgstr ""
+
+#: admin/emails/email-editor.php:193
+msgid "Save as template"
+msgstr ""
+
+#: admin/emails/email-editor.php:213
+msgid "Enable Browser View"
+msgstr ""
+
+#: admin/emails/email-editor.php:225
+msgid "Blocks"
+msgstr ""
+
+#: admin/emails/email-editor.php:293 admin/emails/email-editor.php:294
+msgid "Subject Line: Used to capture the attention of the reader."
+msgstr ""
+
+#: admin/emails/email-editor.php:300 admin/emails/email-editor.php:301
+msgid "Pre Header Text: Used to summarize the content of the email."
+msgstr ""
+
+#: admin/emails/email-editor.php:358
+msgid "Use this custom Alt Body text"
+msgstr ""
+
+#: admin/emails/email-editor.php:361 includes/plugin.php:199
+msgid "Enable"
+msgstr ""
+
+#: admin/emails/email-editor.php:368
+msgid "If left un-enabled an alt-body will be auto-generated."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:78
+msgid "Send test email to..."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:121 admin/superlinks/superlinks-page.php:76
+msgid "Overview"
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:122
+msgid ""
+"Unlike most marketing automation platforms Groundhogg made the decision to "
+"<strong>store emails globally</strong>. That means that you can use the same "
+"email across different funnels without ever having to re-write it.\n"
+"                From this screen you can <strong>View/Edit/Delete</strong> "
+"emails and see their respective open rates across different funnels."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:130
+msgid "Add New"
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:131
+msgid ""
+"When you add a new email you can either select a pre-written email template "
+"created by our in house digital marketing specialists or you can select one "
+"of your own past written emails to copy."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:138
+msgid "Editing"
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:139
+#, php-format
+msgid ""
+"When you are editing an email, you can drag in new blocks from the right "
+"hand side into your email content. You can edit the appearance of the email "
+"with the settings on the left hand side of the email content. When designing "
+"our\n"
+"                email builder we made the decision to keep features sparse. "
+"Hence no columns and no frilly html stuff. Just the basics. The reason for "
+"this being 80% of email is read on mobile, so our email builder is optimized "
+"for better mobile consumption."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:141
+msgid ""
+"When you believe an email is ready for sending set the status to "
+"<strong>Ready</strong> and then you can use it in any broadcast or funnel. "
+"An email which is in draft mode will not be sent."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:148
+msgid "Testing"
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:149
+msgid ""
+"To test an email simply check off the <strong>Send Test</strong> checkbox "
+"and select the user account you'd like to send the test to. For best "
+"results, use a minimal number of images, make text easy to read and write "
+"good content. Tests will be sent regardless of the email's current status."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:348
+msgid "Emails cannot be sent while in DRAFT mode."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:356
+#, php-format
+msgid ""
+"You are sending this email from an email address (%s) which does not belong "
+"to this server. This may cause deliverability issues and harm your sender "
+"reputation."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:376
+msgid "Email Updated."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:416
+msgid "Sent test email to"
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:467 admin/emails/emails-page-pro.php:478
+msgid "Could not create email."
+msgstr ""
+
+#: admin/emails/emails-page-pro.php:557
+msgctxt "notice"
+msgid "Sorry, no emails were found."
+msgstr ""
+
+#: admin/superlinks/edit.php:26 admin/superlinks/superlinks-page.php:229
+msgid "Superlink Name"
+msgstr ""
+
+#: admin/superlinks/edit.php:28 admin/superlinks/superlinks-page.php:232
+msgid "Name a Superlink something simple so you do not forget it."
+msgstr ""
+
+#: admin/superlinks/edit.php:32 admin/superlinks/superlinks-page.php:235
+msgid "Target URL"
+msgstr ""
+
+#: admin/superlinks/edit.php:39 admin/superlinks/superlinks-page.php:241
+msgid "Superlink target"
+msgstr ""
+
+#: admin/superlinks/edit.php:44
+msgid ""
+"This is the url the contact will be re-directed to after clicking this "
+"Superlink."
+msgstr ""
+
+#: admin/superlinks/edit.php:49 admin/superlinks/superlinks-page.php:247
+msgid "Apply Tags When Clicked"
+msgstr ""
+
+#: admin/superlinks/edit.php:61
+msgid ""
+"These tags will be applied to a contact whenever this link is clicked. To "
+"create a new tag hit [enter] or [comma]"
+msgstr ""
+
+#: admin/superlinks/edit.php:68 admin/superlinks/superlinks-table.php:271
+msgid "Delete"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:50
+msgctxt "page_title"
+msgid "Superlinks"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:77
+msgid ""
+"Superlinks are special superlinks that allow you to apply/remove tags "
+"whenever clicked and then take the contact to a page of your choice. To use "
+"them, just copy the replacement code and paste in in email, button, or link."
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:94
+msgctxt "page_title"
+msgid "Edit Superlink"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:113
+#: admin/superlinks/superlinks-page.php:154
+msgid "Please enter super link name."
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:117
+#: admin/superlinks/superlinks-page.php:158
+msgid "Please enter super link target URL."
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:134
+msgctxt "notice"
+msgid "Superlink created!"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:150
+msgid "Given superlink not found!"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:175
+msgctxt "notice"
+msgid "Superlink updated!"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:203
+#, php-format
+msgctxt "notice"
+msgid "%d superlink deleted"
+msgid_plural "%d superlinks deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/superlinks/superlinks-page.php:218
+msgid "Search Superlinks"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:224
+msgid "Add New Superlink"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:244
+msgid ""
+"Insert a url that this link will direct to. This link can contain simple "
+"replacement codes."
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:253
+msgid ""
+"These tags will be applied to a contact whenever this link is clicked. To "
+"create a new tag hit [Enter] or [,]"
+msgstr ""
+
+#: admin/superlinks/superlinks-page.php:255
+msgctxt "action"
+msgid "Add New Superlink"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:61
+msgctxt "Column label"
+msgid "Name"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:62
+msgctxt "Column label"
+msgid "Source Url"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:63
+msgctxt "Column label"
+msgid "Replacement Code"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:64
+msgctxt "Column label"
+msgid "Tags"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:66
+msgctxt "Column label"
+msgid "Target Url"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:173
+msgctxt "List table bulk action"
+msgid "Delete"
+msgstr ""
+
+#: admin/superlinks/superlinks-table.php:262
+#: admin/superlinks/superlinks-table.php:263
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: title
+#: admin/superlinks/superlinks-table.php:270
+#, php-format
+msgid "Delete &#8220;%s&#8221; permanently"
+msgstr ""
+
+#: admin/support/ticket-form.php:51
+msgid "Before creating a ticket..."
+msgstr ""
+
+#: admin/support/ticket-form.php:52
+msgid ""
+"Deactivate all plugins temporarily, just to see if it’s caused by some "
+"plugin installed."
+msgstr ""
+
+#: admin/support/ticket-form.php:58
+msgid "Deactivate all plugins"
+msgstr ""
+
+#: admin/support/ticket-form.php:61
+msgid ""
+"Also please check if the problem persists if you temporarily switch to "
+"another theme."
+msgstr ""
+
+#: admin/support/ticket-form.php:71
+msgid "Create a support ticket"
+msgstr ""
+
+#: admin/support/ticket-form.php:76
+msgid "Your name"
+msgstr ""
+
+#: admin/support/ticket-form.php:79
+msgid "So we can get to know you better."
+msgstr ""
+
+#: admin/support/ticket-form.php:84
+msgid "Email address"
+msgstr ""
+
+#: admin/support/ticket-form.php:87
+msgid "Your email is used to link this ticket to your account on Groundhogg.io"
+msgstr ""
+
+#: admin/support/ticket-form.php:94
+msgid "License Key"
+msgstr ""
+
+#: admin/support/ticket-form.php:97
+msgid "Only valid license holders can request support."
+msgstr ""
+
+#: admin/support/ticket-form.php:102
+msgid "How are you feeling today?"
+msgstr ""
+
+#: admin/support/ticket-form.php:105
+msgid "Great!"
+msgstr ""
+
+#: admin/support/ticket-form.php:106
+msgid "Good"
+msgstr ""
+
+#: admin/support/ticket-form.php:107
+msgid "Just okay"
+msgstr ""
+
+#: admin/support/ticket-form.php:108
+msgid "Bad"
+msgstr ""
+
+#: admin/support/ticket-form.php:109
+msgid "Really bad"
+msgstr ""
+
+#: admin/support/ticket-form.php:111
+msgid "Do you mind telling us how you are feeling today?"
+msgstr ""
+
+#: admin/support/ticket-form.php:116
+msgid "How experienced are you with Groundhogg?"
+msgstr ""
+
+#: admin/support/ticket-form.php:119 admin/support/ticket-form.php:131
+msgid "Novice"
+msgstr ""
+
+#: admin/support/ticket-form.php:120 admin/support/ticket-form.php:132
+msgid "Intermediate"
+msgstr ""
+
+#: admin/support/ticket-form.php:121 admin/support/ticket-form.php:133
+msgid "Expert"
+msgstr ""
+
+#: admin/support/ticket-form.php:123 admin/support/ticket-form.php:135
+msgid "We will tailor our response to your level of experience."
+msgstr ""
+
+#: admin/support/ticket-form.php:128
+msgid "How experienced are you with WordPress?"
+msgstr ""
+
+#: admin/support/ticket-form.php:150
+msgid "Which plugin is causing the issue?"
+msgstr ""
+
+#: admin/support/ticket-form.php:153
+msgid ""
+"If you know which plugin has the problem, or which plugin you are having "
+"trouble with please select it from the list."
+msgstr ""
+
+#: admin/support/ticket-form.php:159
+msgid "What's the problem?"
+msgstr ""
+
+#: admin/support/ticket-form.php:162
+msgid "Please enter short description(title) of your problem. "
+msgstr ""
+
+#: admin/support/ticket-form.php:168
+msgid "Describe Your problem"
+msgstr ""
+
+#: admin/support/ticket-form.php:171
+msgid ""
+"Please be as specific as possible. The more information you can provide the "
+"better."
+msgstr ""
+
+#: admin/support/ticket-form.php:176
+msgid "Login access"
+msgstr ""
+
+#: admin/support/ticket-form.php:178
+msgid "Create an administrative user account for the Groundhogg support team."
+msgstr ""
+
+#: admin/support/ticket-form.php:179
+msgid ""
+"This will create an administrative user account for support.team@groundhogg."
+"io. You may demote or remove this account after the successful resolution of "
+"your ticket."
+msgstr ""
+
+#: admin/support/ticket-form.php:184
+msgid "Grant permissions"
+msgstr ""
+
+#: admin/support/ticket-form.php:186
+msgid ""
+"I agree to allow the Groundhogg support team to deactivate, activate, "
+"install or delete any plugins."
+msgstr ""
+
+#: admin/support/ticket-form.php:188
+msgid ""
+"I agree to allow the Groundhogg support team to change, add or delete any "
+"options or settings."
+msgstr ""
+
+#: admin/support/ticket-form.php:194
+msgid "Create Ticket"
+msgstr ""
+
+#: admin/support/ticket-form.php:224
+msgid "You must agree to allow the support team to modify plugins."
+msgstr ""
+
+#: admin/support/ticket-form.php:228
+msgid "You must agree to allow the support team to modify options."
+msgstr ""
+
+#: admin/support/ticket-form.php:232
+msgid "You must agree to allow the support team to have administrative access."
+msgstr ""
+
+#: admin/support/ticket-form.php:267
+msgid "Ticket created"
+msgstr ""
+
+#: groundhogg-pro.php:46
+#, php-format
+msgid "%s requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-pro.php:52
+#, php-format
+msgid ""
+"%s requires WordPress version %s+. Because you are using an earlier version, "
+"the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-pro.php:74
+#, php-format
+msgid "Groundhogg is not currently active, it must be active for %s to work."
+msgstr ""
+
+#: includes/plugin.php:179
+msgctxt "replacement"
+msgid "A superlink code. Usage: {superlink.id}"
+msgstr ""
+
+#: includes/plugin.php:192
+msgid "Enable Advanced Email Editor"
+msgstr ""
+
+#: includes/plugin.php:193
+msgid ""
+"Enable advanced email editor. provides functionality to drag and drop email "
+"actions."
+msgstr ""
+
+#: includes/plugin.php:206
+msgctxt "settings"
+msgid "Disable page view tracking script"
+msgstr ""
+
+#: includes/plugin.php:207
+msgctxt "settings"
+msgid ""
+"This will disable the page view tracking script that loads on every page if "
+"it causes longer than normal load times. This will cause the 'Page View' "
+"benchmark to no longer work."
+msgstr ""
+
+#: includes/plugin.php:210
+msgid "Disable"
+msgstr ""
+
+#: includes/plugin.php:228
+msgctxt "settings_tabs"
+msgid "Pro Features"
+msgstr ""
+
+#: includes/plugin.php:242
+msgctxt "settings_sections"
+msgid "Pro Features"
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:43
+msgctxt "step_name"
+msgid "Advanced Timer"
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:63
+msgctxt "step_description"
+msgid "Pause for the specified amount of time."
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:88
+msgid "Time"
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:97
+msgid "Time is stored in UTC-0"
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:99
+msgid "Local Time: "
+msgstr ""
+
+#: includes/steps/actions/advanced-timer.php:127
+msgid "A timer has a date set in the past and may cause unexpected behaviour."
+msgstr ""
+
+#: includes/steps/actions/apply-owner.php:42
+msgctxt "step_name"
+msgid "Apply Owner"
+msgstr ""
+
+#: includes/steps/actions/apply-owner.php:62
+msgctxt "step_description"
+msgid "Set the contact owner to the specified user account."
+msgstr ""
+
+#: includes/steps/actions/apply-owner.php:84
+msgid "Apply Owner:"
+msgstr ""
+
+#: includes/steps/actions/apply-owner.php:87
+msgid "Selecting more than 1 owner will create a round robin."
+msgstr ""
+
+#: includes/steps/actions/create-user.php:44
+msgctxt "step_name"
+msgid "Create User"
+msgstr ""
+
+#: includes/steps/actions/create-user.php:64
+msgctxt "step_description"
+msgid ""
+"Create a WP User account at the specified level. Username is the contact's "
+"email."
+msgstr ""
+
+#: includes/steps/actions/create-user.php:86
+msgid "User Role:"
+msgstr ""
+
+#: includes/steps/actions/create-user.php:89
+msgid ""
+"This role will be added to the new user. If the user already exists, the "
+"role will be added in addition to existing roles."
+msgstr ""
+
+#: includes/steps/actions/create-user.php:105
+msgid "Which Site?"
+msgstr ""
+
+#: includes/steps/actions/create-user.php:109
+msgid "Add to all sites"
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:44
+msgctxt "step_name"
+msgid "Date Timer"
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:64
+msgctxt "step_description"
+msgid "Pause until a specific date & time."
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:89
+msgid "Wait till:"
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:112
+msgctxt "action"
+msgid "Run in the contact's local time."
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:117
+msgid "Run in the contact's local time."
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:167
+#, php-format
+msgid ""
+"You have date timers with descending dates! Your funnel may not work as "
+"expected. See <a href=\"#%d\">%s</a>! Timers with dates in the past will run "
+"immediately."
+msgstr ""
+
+#: includes/steps/actions/date-timer.php:172
+#, php-format
+msgid ""
+"You have date timers with dates in the past! Your funnel may not work as "
+"expected. See <a href=\"#%d\">%s</a>! Timers with dates in the past will run "
+"immediately."
+msgstr ""
+
+#: includes/steps/actions/edit-meta.php:41
+msgctxt "step_name"
+msgid "Edit Meta"
+msgstr ""
+
+#: includes/steps/actions/edit-meta.php:61
+msgctxt "step_description"
+msgid "Directly edit the meta data of the contact."
+msgstr ""
+
+#: includes/steps/actions/edit-meta.php:115
+#: includes/steps/actions/http-post.php:172
+msgid "Key"
+msgstr ""
+
+#: includes/steps/actions/edit-meta.php:115
+#: includes/steps/actions/http-post.php:172
+msgid "Value"
+msgstr ""
+
+#: includes/steps/actions/edit-meta.php:115
+#: includes/steps/actions/http-post.php:172
+msgid "Actions"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:46
+msgctxt "step_name"
+msgid "Field Timer"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:66
+msgctxt "step_description"
+msgid "Pause for the specified amount of time before a date in the meta."
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:96
+msgid "Wait at least:"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:113
+msgid "Minutes"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:114
+msgid "Hours"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:115
+msgid "Days"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:116
+msgid "Weeks"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:117
+msgid "Months"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:118
+msgid "No Delay"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:129
+msgid "Before"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:130
+msgid "After"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:160
+msgid "Date Field:"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:168
+#: includes/steps/benchmarks/field-changed.php:42
+msgid "Please Select a Field"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:175
+msgid "And run:"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:180
+msgid "Immediately"
+msgstr ""
+
+#: includes/steps/actions/field-timer.php:181
+msgid "At time of day..."
+msgstr ""
+
+#: includes/steps/actions/http-post.php:45
+msgctxt "step_name"
+msgid "Webhook"
+msgstr ""
+
+#: includes/steps/actions/http-post.php:65
+msgctxt "step_description"
+msgid "Send an HTTP Post to your favorite external software."
+msgstr ""
+
+#: includes/steps/actions/http-post.php:102
+msgid "Url:"
+msgstr ""
+
+#: includes/steps/actions/http-post.php:118
+msgid "Send Test"
+msgstr ""
+
+#: includes/steps/actions/http-post.php:130
+msgid "Send as JSON"
+msgstr ""
+
+#: includes/steps/actions/http-post.php:317
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:13
+msgctxt "step_name"
+msgid "Field Changed"
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:23
+msgctxt "step_description"
+msgid "Runs whenever a value of selected field changes."
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:35
+msgid "Which Field:"
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:44
+msgid "Will run when the given field is changed."
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:49
+msgid "When Set To:"
+msgstr ""
+
+#: includes/steps/benchmarks/field-changed.php:57
+msgid ""
+"Runs when the custom value is set to the given value. Leave blank to run "
+"every time."
+msgstr ""
+
+#: includes/steps/benchmarks/login-status.php:22
+msgctxt "step_name"
+msgid "Logs In"
+msgstr ""
+
+#: includes/steps/benchmarks/login-status.php:42
+msgctxt "step_description"
+msgid "Whenever a user logs in for a certain amount of times."
+msgstr ""
+
+#: includes/steps/benchmarks/login-status.php:68
+msgid "Run when a user logs in:"
+msgstr ""
+
+#: includes/steps/benchmarks/login-status.php:77
+msgid "Any Time"
+msgstr ""
+
+#: includes/steps/benchmarks/login-status.php:78
+msgid "Number of Times"
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:40
+msgctxt "step_name"
+msgid "Page Visited"
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:60
+msgctxt "step_description"
+msgid "Runs whenever the specified page is visited."
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:86
+msgid "Run when contact visits this page."
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:95
+msgid "Partial Match"
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:96
+msgid "Exact Match"
+msgstr ""
+
+#: includes/steps/benchmarks/page-visited.php:108
+msgid ""
+"This will only work if the contact is logged in, clicked a link in an email "
+"or filled out a form before browsing."
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:59
+msgid "Plugin API"
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:79
+msgid "Developer friendly benchmark."
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:103
+msgid "Call Name"
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:110
+msgid "The call name for the API trigger."
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:117
+msgid "Usage:"
+msgstr ""
+
+#: includes/steps/benchmarks/plugin-api.php:128
+msgid ""
+"Copy and paste the above code into a custom plugin or your theme's functions."
+"php file."
+msgstr ""
+
+#: includes/steps/benchmarks/role-changed.php:40
+msgctxt "step_name"
+msgid "Role Changed"
+msgstr ""
+
+#: includes/steps/benchmarks/role-changed.php:60
+msgctxt "step_description"
+msgid "Runs whenever a user's role is changed."
+msgstr ""
+
+#: includes/steps/benchmarks/role-changed.php:83
+msgid "Run when this access is given:"
+msgstr ""
+
+#: includes/steps/benchmarks/role-changed.php:86
+msgid "Users with these roles will trigger this benchmark."
+msgstr ""
+
+#: templates/assets/email-templates.php:24
+msgctxt "email_template_name"
+msgid "Call To Action"
+msgstr ""
+
+#: templates/assets/email-templates.php:25
+msgctxt "email_template_description"
+msgid "Use when you need contacts to take an action, and FAST!"
+msgstr ""
+
+#: templates/assets/email-templates.php:34
+msgctxt "email_template_name"
+msgid "Plain Text"
+msgstr ""
+
+#: templates/assets/email-templates.php:35
+msgctxt "email_template_description"
+msgid "Perfect for easy breezy communication with contacts."
+msgstr ""
+
+#: templates/assets/email-templates.php:43
+msgctxt "email_template_name"
+msgid "Newsletter"
+msgstr ""
+
+#: templates/assets/email-templates.php:44
+msgctxt "email_template_description"
+msgid "Ideal for when you have a lot to share."
+msgstr ""
+
+#: templates/assets/email-templates.php:53
+msgctxt "email_template_name"
+msgid "Excitement Generator"
+msgstr ""
+
+#: templates/assets/email-templates.php:54
+msgctxt "email_template_description"
+msgid "Need people excited? This is what you need!"
+msgstr ""
+
+#: templates/assets/email-templates.php:63
+msgctxt "email_template_name"
+msgid "Welcome Email"
+msgstr ""
+
+#: templates/assets/email-templates.php:64
+msgctxt "email_template_description"
+msgid "New contact? Make the feel at home."
+msgstr ""
+
+#: templates/assets/email-templates.php:73
+msgctxt "email_template_name"
+msgid "Confirmation Email"
+msgstr ""
+
+#: templates/assets/email-templates.php:74
+msgctxt "email_template_description"
+msgid "Send a confirmation request for receiving further communication."
+msgstr ""
+
+#: templates/assets/email-templates.php:83
+msgctxt "email_template_name"
+msgid "Review Request"
+msgstr ""
+
+#: templates/assets/email-templates.php:84
+msgctxt "email_template_description"
+msgid "Want feedback? This is the easiest way to get it."
+msgstr ""
+
+#: templates/assets/email-templates.php:93
+msgctxt "email_template_name"
+msgid "Appreciation Email"
+msgstr ""
+
+#: templates/assets/email-templates.php:94
+msgctxt "email_template_description"
+msgid "Let your customers know you value them."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Groundhogg - Pro Features"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/?utm_source=wp-plugins&utm_campaign=plugin-"
+"uri&utm_medium=wp-dash"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "pro features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Groundhogg Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/?utm_source=wp-plugins&utm_campaign=author-"
+"uri&utm_medium=wp-dash"
+msgstr ""

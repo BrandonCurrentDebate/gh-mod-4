@@ -1,0 +1,1130 @@
+@charset "UTF-8";
+body.folded #funnel-form {
+  left: 36px;
+}
+body.funnel-full-screen {
+  /* Full Screen */
+}
+body.funnel-full-screen #funnel-form {
+  top: 0;
+  left: 0;
+}
+body.funnel-full-screen #funnel-form #full-screen .dashicons::before {
+  content: "";
+}
+body.funnel-full-screen #adminmenumain,
+body.funnel-full-screen #wpfooter,
+body.funnel-full-screen #wpadminbar {
+  display: none !important;
+}
+body:not(.funnel-full-screen) #close {
+  display: none;
+}
+
+#funnel-form {
+  display: flex;
+  flex-direction: column;
+}
+#funnel-form #funnel-builder {
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+  flex-grow: 1;
+}
+
+#poststuff #post-body.columns-2 {
+  margin-left: 400px;
+  margin-right: 0 !important;
+  border-left: 1px solid #ccd0d4;
+}
+
+/* Full Screen */
+#wpfooter {
+  display: none !important;
+}
+
+/* END Full Screen */
+#screen-meta-links {
+  display: none;
+}
+
+/* NEW STUFF */
+#wpbody-content {
+  /*height: 100vh;*/
+  padding-bottom: 0;
+}
+
+.trigger-popup {
+  font-weight: normal;
+}
+
+.button.button-secondary.submit.trigger-popup {
+  background: #f7f7f7 !important;
+  border-color: #ccc !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  float: none !important;
+  padding: 0 10px 1px !important;
+  margin: 2px !important;
+}
+
+#wpcontent {
+  padding-left: 0 !important;
+  box-sizing: border-box;
+}
+
+#poststuff {
+  padding-top: 0px;
+  margin-top: 107px;
+}
+
+.replacements-button,
+.add-contacts-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header-wrap {
+  width: 100%;
+}
+
+#change_reporting {
+  margin: 1px 2px;
+}
+
+#step-settings-container {
+  /*padding: 10px 20px;*/
+  box-sizing: border-box;
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+}
+#step-settings-container .sub-header {
+  background: white;
+  border-bottom: 0;
+  box-shadow: 5px 5px 30px 0 rgba(4, 45, 70, 0.05);
+  left: 340px;
+  display: flex;
+  padding: 5px;
+  position: static;
+  z-index: 99;
+}
+#step-settings-container .sub-header .toolbar-buttons {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+#step-settings-container .sub-header .toolbar-buttons .gh-button {
+  gap: 5px;
+}
+#step-settings-container .sub-header .toolbar-buttons .dashicons {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+/*.saving #poststuff{*/
+/*    opacity: 0.5;*/
+/*}*/
+.step-settings {
+  padding: 30px;
+}
+
+#step-settings-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+#step-settings-inner .notice {
+  margin: 0;
+  border-radius: 5px;
+  /*border-width: 2px;*/
+  border-width: 0 0 0 5px;
+}
+#step-settings-inner .step:not(.active) {
+  display: none;
+}
+#step-settings-inner .step.active .step-title-wrap ~ .custom-settings {
+  border-top: 1px solid rgba(16, 38, 64, 0.15);
+}
+#step-settings-inner .step.active .custom-settings .gh-rows-and-columns label {
+  font-weight: 500;
+}
+#step-settings-inner .step.active.action.apply_note .step-flex .step-edit .custom-settings {
+  padding: 0;
+}
+#step-settings-inner .step.active.action.apply_note .step-flex .step-edit .custom-settings .mce-panel {
+  box-shadow: none;
+  border-top: none;
+}
+#step-settings-inner .step.active .step-warnings {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#step-settings-inner .step.active .step-flex {
+  display: flex;
+  gap: 30px;
+}
+#step-settings-inner .step.active .step-flex .step-notes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 240px;
+  flex-shrink: 0;
+}
+#step-settings-inner .step.active .step-flex .step-notes .step-notes-textarea {
+  width: 100%;
+  background: rgba(16, 38, 64, 0.05);
+  border-radius: 5px;
+  font-weight: 400;
+  border: none;
+  padding: 12px;
+}
+#step-settings-inner .step.active .step-flex .step-edit {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#step-settings-inner .step.active .step-flex .step-edit .custom-settings {
+  padding: 0 20px 10px 20px;
+}
+#step-settings-inner .step.active .step-flex .step-edit .custom-settings hr {
+  border: 0;
+  border-top: 1px solid rgba(16, 38, 64, 0.15);
+  border-bottom: none;
+  margin: 0 -20px;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table {
+  border-radius: 5px;
+  overflow: hidden;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table:not(:last-child) {
+  margin-bottom: 10px;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table:first-child {
+  margin-top: 20px;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table.has-actions th:last-child {
+  width: 70px;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table.has-actions td:last-child > div {
+  display: none;
+}
+#step-settings-inner .step.active .step-flex .step-edit table.wp-list-table.has-actions tbody tr:hover td:last-child > div {
+  display: flex;
+}
+
+.step {
+  margin: 0;
+  position: relative;
+}
+
+#wpcontent {
+  margin-left: 0 !important;
+}
+
+.funnel-editor-header {
+  z-index: 999;
+  box-sizing: border-box;
+  height: 60px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.funnel-editor-header > svg {
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background-color: #102640;
+}
+.funnel-editor-header #title {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+.funnel-editor-header .actions {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+.funnel-editor-header .status-options .save-button {
+  gap: 7px;
+  align-items: center;
+  padding: 9px 18px;
+  font-weight: 500;
+}
+.funnel-editor-header .title-section {
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.funnel-editor-header #close #close-button {
+  padding: 12px;
+}
+.step-title-view,
+.title-view {
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.step-title-view .title,
+.title-view .title {
+  font-weight: 600;
+  line-height: 1em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.funnel-editor-header div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.funnel-editor-header div.hidden {
+  display: none;
+}
+
+button.button.save-button {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 600;
+  position: relative;
+  height: auto;
+  padding: 2px 14px 2px 32px;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.save-button.spin .dashicons {
+  animation: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* END NEW STUFF */
+.form-buttons {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.form-buttons {
+  margin: 0 0 5px 0;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 30px solid #ffffff;
+  position: absolute;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.wpgh-element {
+  /*height: 112px;*/
+  text-align: center;
+}
+
+.step-icon img {
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+.step-icon img[src*=svg] {
+  width: 100%;
+}
+
+.hndle label {
+  margin: 0 10px 0 0;
+}
+
+.step-reporting .chart {
+  background: #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.step-reporting .chart .inside {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.ui-front.ui-autocomplete {
+  z-index: 100100;
+}
+
+#actions table,
+#benchmarks table {
+  box-sizing: border-box;
+  width: 100%;
+  border-spacing: 7px;
+}
+
+#actions table td,
+#benchmarks table td {
+  text-align: center;
+}
+
+.sortable-placeholder {
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgba(16, 38, 64, 0.15);
+  border: none;
+  margin: 10px 0;
+  height: 60px;
+}
+
+#step-sortable:empty::after {
+  margin: 10px 0;
+  height: 60px;
+  background-color: rgba(16, 38, 64, 0.15);
+  content: "Drag a step into the flow";
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#step-flow {
+  width: 340px;
+  flex-shrink: 0;
+  position: relative;
+}
+#step-flow .fixed-inside {
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: absolute;
+  overflow-y: scroll;
+  background-image: radial-gradient(circle at 1px 1px, rgba(16, 38, 64, 0.1) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+#step-flow .wpgh-element {
+  /*height: 112px;*/
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: grabbing;
+}
+#step-flow .wpgh-element[data-group=action] {
+  background-color: rgba(158, 206, 56, 0.5);
+}
+#step-flow .wpgh-element[data-group=benchmark] {
+  background-color: rgba(245, 129, 21, 0.25);
+}
+#step-flow .wpgh-element p {
+  display: none;
+}
+#step-flow .step.action + .step.benchmark {
+  margin-top: 40px;
+}
+#step-flow .step.action + .step.benchmark::before {
+  content: "Until...";
+  position: absolute;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f58115;
+}
+#step-flow .step.benchmark + .step.benchmark {
+  margin-top: 40px;
+}
+#step-flow .step.benchmark + .step.benchmark::before {
+  content: "Or...";
+  position: absolute;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #6c19ad;
+}
+#step-flow .step.benchmark + .step.action {
+  margin-top: 40px;
+}
+#step-flow .step.benchmark + .step.action::before {
+  content: "Then...";
+  position: absolute;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #9ece38;
+}
+#step-flow .step {
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px 0 rgba(4, 45, 70, 0.05);
+  margin: 10px 0;
+  background: white;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+#step-flow .step:hover .actions {
+  visibility: visible;
+}
+#step-flow .step .actions {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  display: flex;
+  visibility: hidden;
+}
+#step-flow .step .actions button.gh-button {
+  padding: 5px;
+  font-size: 16px;
+}
+#step-flow .step .actions button.gh-button .dashicons {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+#step-flow .step .step-labels {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  gap: 3px;
+}
+#step-flow .step .step-labels .step-label {
+  font-size: 10px;
+  padding: 1px 6px;
+  color: white;
+  border-radius: 3px;
+  width: max-content;
+  background-color: #102640;
+}
+#step-flow .step .step-labels .step-label.logic-tag {
+  background-color: #6c19ad !important;
+}
+#step-flow .step .step-labels .step-label.danger {
+  background-color: #e91f4f !important;
+}
+#step-flow .step .step-labels .step-label.green {
+  background-color: #9ece38;
+}
+#step-flow .step.step-placeholder {
+  justify-content: center;
+  padding: 20px;
+  margin: 10px 0;
+}
+#step-flow .step.has-errors {
+  border-left-color: #ffee58 !important;
+}
+#step-flow .step.has-errors.active {
+  border-color: #ffee58 !important;
+}
+#step-flow .step > .hndle {
+  padding: 10px 55px 10px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#step-flow .step > .hndle:has([src*=svg]) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#step-flow .step > .hndle .hndle-icon {
+  width: 40px;
+  height: 40px;
+}
+#step-flow .step > .hndle .hndle-icon[src*=svg] {
+  width: 50px;
+  height: 50px;
+}
+#step-flow .step > .hndle > div {
+  display: flex;
+  flex-direction: column;
+}
+#step-flow .step > .hndle > div span.step-title {
+  font-size: 14px;
+}
+#step-flow .step > .hndle > div span.step-title code {
+  border-radius: 4px;
+  padding: 1px 3px;
+}
+#step-flow .step > .hndle > div span.step-name {
+  /*margin-left:6px;*/
+  font-size: 8px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#step-flow .step.benchmark {
+  border-left-color: #f58115;
+}
+#step-flow .step.benchmark .hndle-icon,
+#step-flow .step.benchmark span.step-name {
+  color: #f58115;
+}
+#step-flow .step.benchmark.active {
+  border-color: #f58115;
+}
+#step-flow .step.benchmark .step-labels .step-label {
+  background-color: #f58115;
+}
+#step-flow .step.benchmark:first-child {
+  margin-top: 40px;
+}
+#step-flow .step.benchmark:first-child::before {
+  content: "Start the funnel when...";
+  position: absolute;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f58115;
+}
+#step-flow .step.action {
+  border-left-color: #9ece38;
+}
+#step-flow .step.action span.step-name {
+  color: #9ece38;
+}
+#step-flow .step.action.active {
+  border-color: #9ece38;
+}
+
+#step-flow .step.step h2 {
+  cursor: pointer !important;
+}
+
+.step .inside select {
+  vertical-align: top;
+}
+
+#benchmarks .help-icon,
+#actions .help-icon {
+  float: right;
+}
+
+#step-flow .step .add-step {
+  display: none;
+  padding: 0 5px 1px;
+}
+
+#step-flow .step:hover .add-step {
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  bottom: -10px;
+  z-index: 9999999999999;
+}
+
+#step-flow .step .add-step .dashicons {
+  vertical-align: middle;
+}
+
+#funnel-chart {
+  background: #FFF;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+#add-steps {
+  padding: 30px;
+}
+#add-steps h2 {
+  font-size: 24px;
+  margin: 30px 0 0 0;
+  border-top: 3px solid;
+  padding: 20px 0 20px 0;
+}
+#add-steps h2.benchmarks-header {
+  border-color: #f58115;
+  margin-top: 0;
+}
+#add-steps h2.actions-header {
+  border-color: #9ece38;
+}
+#add-steps #step-toggle [data-group=benchmarks] {
+  color: #f58115;
+  border-color: #f58115;
+}
+#add-steps #step-toggle [data-group=benchmarks].active {
+  background-color: #f58115;
+  color: white;
+}
+#add-steps #step-toggle [data-group=actions] {
+  color: #5a8303;
+  border-color: #9ece38;
+}
+#add-steps #step-toggle [data-group=actions].active {
+  background-color: #9ece38;
+  color: white;
+}
+#add-steps #actions .select-step:hover .step-icon {
+  background-color: rgba(158, 206, 56, 0.5);
+}
+#add-steps #benchmarks .select-step:hover .step-icon {
+  background-color: rgba(245, 129, 21, 0.25);
+}
+#add-steps .steps-select .steps-grid:not(.hidden) {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#add-steps .steps-select .description {
+  padding: 10px;
+}
+#add-steps .steps-select .nav-tab-wrapper {
+  text-align: center;
+  margin-top: 0 !important;
+  padding: 20px 0 0 0 !important;
+}
+#add-steps .steps-select .steps-grid .sub-group {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 1px solid rgba(16, 38, 64, 0.15);
+  padding: 20px;
+}
+#add-steps .steps-select .steps-grid .sub-group > .sub-group-label {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: #F6F9FB;
+  border-radius: 5px;
+  padding: 3px 8px;
+  border: 1px solid rgba(16, 38, 64, 0.15);
+}
+#add-steps .steps-select .steps-grid .sub-group > .select-step {
+  width: 80px;
+  border-radius: 5px;
+  cursor: grab;
+}
+#add-steps .steps-select .steps-grid .sub-group > .select-step > .ui-draggable-dragging {
+  width: 80px;
+  height: 80px;
+  cursor: grabbing;
+}
+#add-steps .steps-select .steps-grid .sub-group > .select-step > .ui-draggable-dragging p {
+  display: none;
+}
+#add-steps .steps-select .steps-grid .sub-group > .select-step p {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+#add-steps .steps-select .steps-grid .sub-group > .select-step .step-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: 5px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background: #FFFFFF;
+}
+
+.add-step-bottom-wrap {
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 10px;
+}
+.add-step-bottom-wrap button {
+  box-shadow: 5px 5px 30px 0 rgba(4, 45, 70, 0.05);
+}
+
+.hndle input {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid rgba(85, 93, 102, 0.23);
+  vertical-align: top;
+}
+
+table.embed-options td {
+  padding: 0 !important;
+}
+
+.step-title-wrap {
+  padding: 8px 10px 8px 70px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.step-title-wrap .step-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  vertical-align: middle;
+  border-right: 1px solid rgba(16, 38, 64, 0.15);
+  box-sizing: border-box;
+}
+.step-title-wrap .step-title-edit {
+  width: 100%;
+}
+.step-title-wrap .step-title-large {
+  font-size: 20px;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.back-to-admin {
+  position: fixed;
+  display: inline-block;
+  left: 5px;
+  bottom: 5px;
+}
+
+.step .handlediv {
+  float: right;
+  background: none;
+  color: #5c5c5c;
+  opacity: 0.6;
+  border: none;
+  cursor: pointer;
+  padding: 8px 4px;
+}
+
+.step .handlediv:hover {
+  opacity: 0.9;
+}
+
+.row-actions {
+  margin: 3px 0 0 3px;
+}
+
+.row-actions a {
+  text-decoration: none;
+}
+
+.add-contact-form {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.add-contact-form td {
+  padding-bottom: 30px;
+}
+
+.form-table th {
+  width: 160px;
+}
+
+#step-settings-inner input,
+#step-settings-inner select,
+#step-settings-inner textarea {
+  max-width: 100% !important;
+}
+
+#add-step-bottom {
+  font-size: 16px;
+  height: auto;
+  margin: 0 0 6px;
+  padding: 8px 14px;
+}
+
+#add-step-bottom .dashicons {
+  /*vertical-align: middle;*/
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#groundhogg-notices {
+  position: fixed;
+  width: 400px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99999999;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#groundhogg-notices .notice {
+  border-radius: 5px;
+  /*border-width: 2px;*/
+  border-width: 0 0 0 5px;
+}
+
+.step-error {
+  font-size: 24px;
+}
+
+.demo-video {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 40px auto;
+  /*margin-top: 250px;*/
+  max-width: 722px;
+  display: block;
+}
+
+.demo-video img {
+  vertical-align: middle;
+}
+
+.actions-links-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.select-a-step-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.benchmark.web_form .after-submit .success-message {
+  display: none;
+}
+.benchmark.web_form .after-submit .success-redirect {
+  display: block;
+}
+.benchmark.web_form .after-submit.ajax-enabled .success-message {
+  display: block;
+}
+.benchmark.web_form .after-submit.ajax-enabled .success-redirect {
+  display: none;
+}
+
+.form-style {
+  margin-top: 30px;
+}
+
+.form-builder-main {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+.form-builder-main .fields-editor,
+.form-builder-main .form-preview-wrap {
+  margin-top: 0 !important;
+  width: 100%;
+}
+.form-builder-main .fields-editor *,
+.form-builder-main .form-preview-wrap * {
+  box-sizing: border-box;
+}
+.form-builder-main .fields-editor {
+  max-width: 400px;
+  width: 50%;
+  flex-shrink: 0;
+}
+.form-builder-main .fields-editor .add-field {
+  width: 100%;
+  margin-top: 10px;
+}
+.form-builder-main .fields-editor .special-fields {
+  margin-top: 20px;
+}
+.form-builder-main .fields-editor .form-fields, .form-builder-main .fields-editor .special-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-builder-main .fields-editor .form-fields .field-placeholder, .form-builder-main .fields-editor .special-fields .field-placeholder {
+  background: #0001;
+  border-radius: 5px;
+}
+.form-builder-main .fields-editor .form-fields .form-field, .form-builder-main .fields-editor .special-fields .form-field {
+  background: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid rgba(16, 38, 64, 0.15);
+  overflow: hidden;
+  cursor: pointer;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings, .form-builder-main .fields-editor .special-fields .form-field .settings {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row, .form-builder-main .fields-editor .special-fields .form-field .settings .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row > label, .form-builder-main .fields-editor .special-fields .form-field .settings .row > label {
+  flex-basis: 150px;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row > .setting, .form-builder-main .fields-editor .special-fields .form-field .settings .row > .setting {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row > .setting input, .form-builder-main .fields-editor .special-fields .form-field .settings .row > .setting input {
+  width: 100%;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row .input-wrap, .form-builder-main .fields-editor .special-fields .form-field .settings .row .input-wrap {
+  width: 100%;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings .row:not(:last-child), .form-builder-main .fields-editor .special-fields .form-field .settings .row:not(:last-child) {
+  margin-bottom: 5px;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings-tabs, .form-builder-main .fields-editor .special-fields .form-field .settings-tabs {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  border-top: 1px solid rgba(16, 38, 64, 0.15);
+  border-bottom: 1px solid rgba(16, 38, 64, 0.15);
+  padding: 10px 10px 0 10px;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings-tabs a.settings-tab, .form-builder-main .fields-editor .special-fields .form-field .settings-tabs a.settings-tab {
+  color: #2c3338;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings-tabs .settings-tab, .form-builder-main .fields-editor .special-fields .form-field .settings-tabs .settings-tab {
+  border-width: 1px 1px 0 1px;
+  border-color: rgba(16, 38, 64, 0.15);
+  border-style: solid;
+  display: inline-block;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  border-radius: 3px 3px 0 0;
+  margin: 0 2px;
+  font-size: 13px;
+  padding: 4px 8px 2px 8px;
+  /*height: ?22px;*/
+  text-align: center;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+.form-builder-main .fields-editor .form-fields .form-field .settings-tabs .settings-tab.active, .form-builder-main .fields-editor .special-fields .form-field .settings-tabs .settings-tab.active {
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+  background: #FFFFFF;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header, .form-builder-main .fields-editor .special-fields .form-field .field-header {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header .field-type, .form-builder-main .fields-editor .special-fields .form-field .field-header .field-type {
+  font-size: 8px;
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header .field-label, .form-builder-main .fields-editor .special-fields .form-field .field-header .field-label {
+  font-size: 13px;
+  line-height: 1.1;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header .actions, .form-builder-main .fields-editor .special-fields .form-field .field-header .actions {
+  display: flex;
+  align-items: stretch;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header .actions button, .form-builder-main .fields-editor .special-fields .form-field .field-header .actions button {
+  background: #FFFFFF;
+  width: 40px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px solid rgba(16, 38, 64, 0.15);
+  cursor: pointer;
+}
+.form-builder-main .fields-editor .form-fields .form-field .field-header .actions button:hover, .form-builder-main .fields-editor .special-fields .form-field .field-header .actions button:hover {
+  background: #f1f1f1;
+}
+
+.inline-tag-picker {
+  position: relative;
+  border: 1px solid #8c8f94;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.inline-tag-picker .gh-panel {
+  display: none;
+}
+.inline-tag-picker.show .gh-panel {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+.inline-tag-picker svg {
+  height: 20px;
+  width: 20px;
+}
+
+.change-email {
+  align-items: center;
+}
+
+/*# sourceMappingURL=funnel-editor.css.map */

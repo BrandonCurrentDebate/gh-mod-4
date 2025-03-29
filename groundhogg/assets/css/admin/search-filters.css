@@ -1,0 +1,230 @@
+.search-filters .filters-loading,
+#search-loading-dots-pill {
+  display: inline-block;
+  background: #6c19ad;
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: #FFFFFF;
+}
+
+.filter-placeholder {
+  background: #102640;
+  opacity: 0.2;
+  border-radius: 5px;
+}
+
+.include-filters-wrap, .exclude-filters-wrap {
+  border: 1px solid #6c19ad;
+  border-radius: 5px;
+  padding: 20px 10px 10px 10px;
+  position: relative;
+}
+.include-filters-wrap:not(:last-child), .exclude-filters-wrap:not(:last-child) {
+  margin-bottom: 20px;
+}
+.include-filters-wrap .include-block, .include-filters-wrap .exclude-block, .exclude-filters-wrap .include-block, .exclude-filters-wrap .exclude-block {
+  position: absolute;
+  background: #6c19ad;
+  border-radius: 5px;
+  left: 10px;
+  top: -10px;
+  padding: 1px 5px;
+  color: #FFFFFF;
+}
+
+.search-filters .filters-loading {
+  display: inline-block;
+  background: #6c19ad;
+  border-radius: 5px;
+  padding: 1px 5px;
+  color: #FFFFFF;
+}
+
+.filter-sub_query .search-filters-editor .group {
+  flex-wrap: nowrap !important;
+}
+.filter-sub_query .search-filters-editor .group .filter-view {
+  white-space: nowrap !important;
+}
+
+.search-filters-editor,
+#search-filters-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.search-filters-editor .or-separator,
+#search-filters-editor .or-separator {
+  /*border: 1px solid #cccccc;*/
+  height: 1px;
+  background: #6c19ad;
+  position: relative;
+  margin: 15px 0;
+}
+.search-filters-editor .or-separator .or-circle,
+#search-filters-editor .or-separator .or-circle {
+  display: inline-block;
+  position: absolute;
+  background: #6c19ad;
+  border-radius: 5px;
+  left: 10px;
+  top: -10px;
+  padding: 1px 5px;
+  color: #FFFFFF;
+}
+.search-filters-editor .group,
+#search-filters-editor .group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.search-filters-editor button,
+#search-filters-editor button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.search-filters-editor button.add-filter,
+#search-filters-editor button.add-filter {
+  padding: 5px;
+}
+.search-filters-editor button.white,
+#search-filters-editor button.white {
+  background: #FFFFFF;
+  border: 1px solid #8c8f94;
+  border-radius: 5px;
+}
+.search-filters-editor .add-filter-wrap,
+#search-filters-editor .add-filter-wrap {
+  position: relative;
+}
+.search-filters-editor .add-filter-wrap .add-filter,
+#search-filters-editor .add-filter-wrap .add-filter {
+  position: absolute;
+  z-index: 999;
+  border: 1px solid #8c8f94;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(24, 45, 70, 0.05);
+}
+.search-filters-editor .add-filter-wrap .add-filter.mount-from-bottom,
+#search-filters-editor .add-filter-wrap .add-filter.mount-from-bottom {
+  bottom: 0;
+}
+.search-filters-editor .add-filter-wrap .add-filter .header,
+#search-filters-editor .add-filter-wrap .add-filter .header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8c8f94;
+  gap: 20px;
+}
+.search-filters-editor .add-filter-wrap .add-filter .filter-options,
+#search-filters-editor .add-filter-wrap .add-filter .filter-options {
+  padding: 5px 8px;
+}
+.search-filters-editor .add-filter-wrap .add-filter .filter-options *,
+#search-filters-editor .add-filter-wrap .add-filter .filter-options * {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.search-filters-editor .add-filter-wrap .add-filter .filter-options .option-group,
+#search-filters-editor .add-filter-wrap .add-filter .filter-options .option-group {
+  font-weight: 500;
+}
+.search-filters-editor .add-filter-wrap .add-filter .filter-options .option,
+#search-filters-editor .add-filter-wrap .add-filter .filter-options .option {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.search-filters-editor .add-filter-wrap .add-filter .filter-options .option:hover,
+#search-filters-editor .add-filter-wrap .add-filter .filter-options .option:hover {
+  background: #0d79e5;
+  color: #FFFFFF;
+}
+.search-filters-editor .filter,
+#search-filters-editor .filter {
+  float: none;
+  margin: 0;
+}
+.search-filters-editor .filter select,
+#search-filters-editor .filter select {
+  vertical-align: initial;
+}
+.search-filters-editor .filter select#filter-count-compare,
+#search-filters-editor .filter select#filter-count-compare {
+  width: fit-content;
+}
+.search-filters-editor .filter.filter-view,
+#search-filters-editor .filter.filter-view {
+  padding: 5px 8px;
+  background: #FFFFFF;
+  border: 1px solid #8c8f94;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.search-filters-editor .filter.filter-view:hover, .search-filters-editor .filter.filter-view:focus,
+#search-filters-editor .filter.filter-view:hover,
+#search-filters-editor .filter.filter-view:focus {
+  background: #f9f9f9;
+}
+.search-filters-editor .filter.filter-view.filter-broken,
+#search-filters-editor .filter.filter-view.filter-broken {
+  border-color: #e91f4f;
+  background: rgba(233, 31, 79, 0.1);
+}
+.search-filters-editor .filter.filter-view .delete-filter,
+#search-filters-editor .filter.filter-view .delete-filter {
+  margin-right: -3px;
+}
+.search-filters-editor .filter.filter-view .delete-filter:hover,
+#search-filters-editor .filter.filter-view .delete-filter:hover {
+  background: rgba(16, 38, 64, 0.05);
+  border-radius: 3px;
+}
+.search-filters-editor .filter.filter-edit-wrap,
+#search-filters-editor .filter.filter-edit-wrap {
+  position: relative;
+  min-width: 200px;
+}
+.search-filters-editor .filter.filter-edit-wrap .filter-edit,
+#search-filters-editor .filter.filter-edit-wrap .filter-edit {
+  min-width: 200px;
+  border: 1px solid #8c8f94;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 5px;
+  z-index: 999;
+  box-shadow: 5px 5px 30px rgba(24, 45, 70, 0.05);
+}
+.search-filters-editor .filter.filter-edit-wrap .filter-edit .settings,
+#search-filters-editor .filter.filter-edit-wrap .filter-edit .settings {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.search-filters-editor .filter.filter-edit-wrap .filter-edit .settings .regular-text,
+#search-filters-editor .filter.filter-edit-wrap .filter-edit .settings .regular-text {
+  width: auto;
+}
+.search-filters-editor .filter.filter-edit-wrap .filter-edit .actions, .search-filters-editor .filter.filter-edit-wrap .filter-edit .header,
+#search-filters-editor .filter.filter-edit-wrap .filter-edit .actions,
+#search-filters-editor .filter.filter-edit-wrap .filter-edit .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=search-filters.css.map */

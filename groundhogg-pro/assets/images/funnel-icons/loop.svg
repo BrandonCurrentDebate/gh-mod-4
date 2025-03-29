@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 500 500">
+  <style>
+    .st1{fill:none;stroke:#000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+  </style>
+  <path d="M161.29 287.06c-5.24-11.86-8.15-24.99-8.15-38.8 0-53.07 43.02-96.09 96.09-96.09 30.45 0 57.59 14.16 75.19 36.25" class="st1"/>
+  <path d="M328.86 145.94v45.84h-45.64m55.49 21.16c5.24 11.86 8.15 24.99 8.15 38.8 0 53.07-43.02 96.09-96.09 96.09-30.45 0-57.59-14.16-75.19-36.25" class="st1"/>
+  <path d="M171.14 354.06v-45.84h45.64" class="st1"/>
+</svg>

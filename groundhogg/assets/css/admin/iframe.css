@@ -1,0 +1,18 @@
+html.iframed {
+    padding-top: 0 !important;
+}
+
+.iframed  #wpcontent {
+    margin: 0;
+}
+
+html.iframed body.wp-admin #wpwrap #wpbody #wpbody-content .page-title-action,
+html.iframed body.wp-admin #wpwrap #wpbody #wpbody-content .wp-heading-inline,
+html.iframed body.wp-admin #wpadminbar,
+html.iframed body.wp-admin #adminmenuwrap,
+html.iframed body.wp-admin #adminmenuback,
+html.iframed body.wp-admin #wpfooter,
+html.iframed body.wp-admin #screen-meta-links,
+html.iframed body.wp-admin #screen-meta {
+    display: none;
+}

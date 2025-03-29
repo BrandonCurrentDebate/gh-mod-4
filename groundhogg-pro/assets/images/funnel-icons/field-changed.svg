@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 500 500">
+  <style>
+    .st1{fill:none;stroke:#000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+  </style>
+  <path d="M239.61 244.73a83.677 83.677 0 0 1 33.47 22.66m21.37 76.24v10.06H127.47v-30.52c0-36.04 22.84-66.75 54.83-78.44" class="st1"/>
+  <circle cx="211.03" cy="199.71" r="53.4" class="st1"/>
+  <path d="M345.53 280.99h14.16c7.09 0 12.84 5.75 12.84 12.84v22.33c0 7.09-5.75 12.84-12.84 12.84H235.25c-7.09 0-12.84-5.75-12.84-12.84v-22.33c0-7.09 5.75-12.84 12.84-12.84h91.92" class="st1"/>
+</svg>

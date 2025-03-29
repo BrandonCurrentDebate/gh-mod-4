@@ -1,0 +1,176 @@
+#wpcontent{
+    padding: 0;
+}
+
+#welcome-page {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.welcome-header {
+    text-align: center;
+}
+
+.gh-panel h2{
+    flex-grow: 1;
+}
+
+.gh-panel img {
+    max-width: 100%;
+}
+
+.gh-panel:not(.outlined) {
+    overflow: hidden;
+}
+
+.guide-link {
+    margin: 10px auto 20px;
+    text-decoration: none;
+}
+
+.guide-link,
+#wpbody .big-button {
+    text-align: center;
+    width: 300px;
+    display: block;
+}
+
+/*.powered-by {*/
+/*    color:white;*/
+/*}*/
+
+.powered-by img {
+    vertical-align: middle;
+}
+
+.welcome-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.welcome-header h1 img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.progress h2 {
+    font-size: 30px !important;
+    color: black;
+    font-family: "Arial Black";
+    text-shadow: 2px 2px 2px rgba(43, 43, 43, 0.21);
+}
+
+.col {
+    padding: 10px;
+    white-space: normal;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.right-col,
+.left-col {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.col .postbox {
+    /*border-radius: 5px ;*/
+}
+
+/*.col h3{*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.postbox .hndle{*/
+/*    font-family: "Arial Black";*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+
+#ghmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #333;*/
+}
+
+#ghmenu li {
+    /*float: left;*/
+    margin: 0;
+    flex-grow: 1;
+
+}
+
+#ghmenu li a {
+    display: block;
+    font-weight: 500;
+    /*color: white;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#ghmenu li a:hover:not(.active) {
+    background-color: #f1f1f1;
+}
+
+.onboarding-checklist .checklist-row {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    padding: 10px 20px 12px 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+.onboarding-checklist .checklist-row.complete p {
+    text-decoration: line-through;
+}
+
+.onboarding-checklist .checklist-row:nth-child(odd) {
+    background: #FAFCFF;
+}
+
+.onboarding-checklist .checklist-row:not(.complete) > div {
+    cursor: pointer;
+}
+
+.onboarding-checklist h3.item-title {
+    margin: 8px 0 4px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.onboarding-checklist .checklist-row .fix-link,
+.onboarding-checklist .checklist-row .item-status {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.onboarding-checklist .checklist-row .details{
+    flex-grow: 1;
+}
+
+#checklist .inside.checklist-complete{
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#checklist .inside.checklist-complete p{
+    font-size: 16px;
+}
+
+.postbox-header .handle-actions{
+    margin-right: 10px;
+}
+
+.postbox.closed .checklist-row{
+    display: none;
+}

@@ -1,0 +1,109 @@
+#wpfooter {
+  display: none;
+}
+
+#more-details-content {
+  padding: 20px;
+}
+#more-details-content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+#more-details-content img {
+  max-width: 100%;
+}
+#more-details-content h2 {
+  margin-top: 1em;
+}
+#more-details-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.thumbnail {
+  max-width: 100%;
+}
+
+#troubleshooter .gh-panel.outlined .inside p:first-child {
+  margin-top: 0;
+}
+
+.wp-list-table pre {
+  margin: 0;
+}
+
+#troubleshooter,
+#guided-setup {
+  width: 600px;
+  margin: auto;
+  padding: 60px 0;
+}
+#troubleshooter h1,
+#guided-setup h1 {
+  margin-top: 0;
+}
+#troubleshooter p, #troubleshooter label, #troubleshooter ul, #troubleshooter ol, #troubleshooter li,
+#guided-setup p,
+#guided-setup label,
+#guided-setup ul,
+#guided-setup ol,
+#guided-setup li {
+  font-size: 16px;
+}
+#troubleshooter ul:not(.select2-selection__rendered),
+#guided-setup ul:not(.select2-selection__rendered) {
+  list-style: disc;
+  padding-left: 20px;
+}
+#troubleshooter .step .logo,
+#guided-setup .step .logo {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+#troubleshooter .step > .gh-panel:has(img.plugin-header-image),
+#guided-setup .step > .gh-panel:has(img.plugin-header-image) {
+  position: relative;
+  padding-top: 195px;
+  overflow: hidden;
+}
+#troubleshooter .step > .gh-panel img.plugin-header-image,
+#guided-setup .step > .gh-panel img.plugin-header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#troubleshooter .step > .gh-panel > .inside,
+#guided-setup .step > .gh-panel > .inside {
+  padding: 40px;
+}
+#troubleshooter .step input.input, #troubleshooter .step select,
+#guided-setup .step input.input,
+#guided-setup .step select {
+  font-size: 16px;
+  padding: 4px 12px;
+}
+#troubleshooter #services .download.gh-panel,
+#guided-setup #services .download.gh-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#troubleshooter #services .download.gh-panel img,
+#guided-setup #services .download.gh-panel img {
+  width: 180px;
+  border-radius: 4px;
+}
+#troubleshooter #services .download.gh-panel .plugin-actions,
+#guided-setup #services .download.gh-panel .plugin-actions {
+  border-top: 1px solid rgba(16, 38, 64, 0.1);
+  padding: 20px;
+}
+#troubleshooter #services .download.gh-panel h2,
+#guided-setup #services .download.gh-panel h2 {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=setup.css.map */
